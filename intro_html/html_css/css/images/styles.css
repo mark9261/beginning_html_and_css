@@ -1,0 +1,42 @@
+h1 {
+    color: purple;
+}
+
+h2 {
+    color: purple;
+}
+
+h3 {
+    color: purple;
+}
+
+ul {
+    color: purple;
+}
+
+li {
+    color: purple;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    color: orange;
+    font-size: 18px;
+}
+img{
+    display:block;
+        margin: 20px auto;
+        width: 400px ;
+}
+footer{
+    color:  red;
+}
+header{
+    text-align: center;
+}
+link{
+    text-align: center;
+}
