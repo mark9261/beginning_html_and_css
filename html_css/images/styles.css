@@ -19,7 +19,7 @@ li {
 }
 
 body {
-    background-color: black;
+    background-color: orange;
 }
 
 p {
@@ -28,4 +28,12 @@ p {
 }
 header{
     text-align: center;
+}
+#container{
+    background-color: black;
+    width: 950px;
+    margin: 20px auto;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 20px;
 }
