@@ -1,0 +1,63 @@
+body {
+    background-color: orange;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+a {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+#container {
+    background-color: black;
+    width: 65%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 4px solid white;
+    border-radius: 20px;
+}
+
+h1 {
+    color: purple;
+}
+
+h2 {
+    color: purple;
+}
+
+h3 {
+    color: purple;
+}
+
+ul {
+    color: purple;
+}
+
+li {
+    color: purple;
+}
+
+body {
+    background-color: orange;
+}
+
+p {
+    color: orange;
+    font-size: 18px;
+}
+
+header {
+    text-align: center;
+}
+nav ul{
+padding: 0%;
+}
