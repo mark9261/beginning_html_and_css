@@ -61,3 +61,30 @@ header {
 nav ul{
 padding: 0%;
 }
+  
+section,aside {
+    border-radius: 20px;
+    border: 2px solid;
+    margin: 20px;
+    padding: 20px;
+}
+section{
+    width: 75%;
+   
+}
+aside{
+    width: 25%;
+}
+section img{
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 75%;
+}
+.img_style {
+    width: 75%;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

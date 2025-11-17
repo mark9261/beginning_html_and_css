@@ -7,56 +7,218 @@
     <title>Halloween</title>
     <link rel="stylesheet" href="css/styles.css">
     <style>
-        #container{
-        background-color: burlywood;
-        width: 950px;
-        margin: 20px auto;
-        border: 2px solid gold;
-        padding: 20px;
-        border-radius: 20px;
-    }
-    header{
-        text-align: center;
-    }
-    body{
-        background-color: darkred;
-    }
+        body {
+            background-color: red;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 50%;
+        }
+
+        a {
+            color: black;
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: none;
+        }
+
+        #container {
+            background-color: burlywood;
+            width: 50%;
+            margin: 20px auto;
+            padding: 20px;
+            border: 2px solid gold;
+            border-radius: 20px;
+        }
+
+        h1 {
+            color: black;
+        }
+
+        h2 {
+            color: black;
+        }
+
+        h3 {
+            color: black;
+            text-align: center;
+        }
+
+        ul {
+            color: cyan;
+        }
+
+        li {
+            color: cyan;
+        }
+
+        body {
+            background-color: darkred;
+        }
+
+        p {
+            color: black;
+            font-size: 18px;
+        }
+
+        iframe {
+            display: block;
+            margin: 20px auto;
+            width: 50%;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px;
+            border-bottom: 2px solid black;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        header h1 {
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            border-bottom: 2px solid black;
+            padding: 0%;
+
+        }
+
+        nav ul {
+
+            text-align: center;
+            list-style-type: none;
+            padding: 0%;
+
+        }
+
+        nav li {
+            text-align: center;
+            display: inline-block;
+        }
+
+        nav li a {
+            display: block;
+            background-color: brown;
+            color: black;
+            width: 200px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 25px;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+
+        main h2 {
+            text-align: center;
+        }
+
+        .multi_col {
+            display: flex;
+        }
+
+
+        section,
+        aside {
+            border-radius: 20px;
+            border: 2px solid;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        section {
+            width: 75%;
+
+        }
+
+        aside {
+            width: 25%;
+        }
+
+        section img {
+            border-radius: 10px;
+            border: 2px solid white;
+            width: 75%;
+        }
+
+        .img_style {
+            width: 75%;
+            border: 2px solid white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px red;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 
-<div id="container">
-<header>
-    <h1>
-        Thanksgiving
-    </h1>
-</header>
-<nav><a href="index.html">Halloween</a>
-    <a href="thanks.html">Thanksgiving</a>
-</nav>
-<main>
-    <hr>
-    <h2> The next big holiaday after Halloween (besides Verterns Day) is Thanksgiving</h2>
-    <hr>
-    <h3>So thats my next topic</h3>
-    
-    <p>
-        Thanksgiving is an annual national holiday in the United States, celebrated on the fourth Thursday in November, that focuses on expressing gratitude and gathering with family and friends. Its origins are commonly traced to a 1621 harvest feast shared by the English colonists (Pilgrims) of Plymouth and the Wampanoag Native Americans, a symbol of cooperation and peace. The holiday was officially proclaimed a national day of thanks by President Abraham Lincoln in 1863 during the Civil War in an effort to foster national unity. 
-    </p>
-    <hr>
-<h3>How its changed</h3>
-<p>
-    Today, the celebration typically revolves around a large meal featuring traditional foods such as roast turkey, stuffing, mashed potatoes, cranberry sauce, and pumpkin pie. Many families incorporate traditions like going around the table and sharing what they are thankful for, or engaging in charitable acts such as volunteering at food banks. Other modern traditions include watching the Macy's Thanksgiving Day Parade or professional football games. While rooted in religious and historical harvest celebrations, Thanksgiving has evolved into a secular occasion for people of all backgrounds to reflect on their blessings and enjoy time with loved ones. 
-</p>
+<body>
 
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Thanksgiving" target = "blank">1</a></li>
-<li><a href="https://visit.archives.gov/whats-on/explore-exhibits/thanksgiving-historical-perspectives#:~:text=A%20Harvest%20Celebration,more%20in%20fiction%20than%20fact." target = "blank">2</a></li>
-<li><a href="https://www.britannica.com/topic/Thanksgiving-Day" target = "blank">3</a></li>
-<li><a href="https://www.usatoday.com/story/life/grateful/2019/11/08/thanksgiving-facts-how-holiday-has-evolved-through-years/2513013001/" target = "blank">4</a></li>
-</ul>
-</main>
-<img src="thanks.jpg" alt="pic">
-<img src="thanks1.jpg" alt="pic">
-<footer>&copy; 2025 Thanksgiving</footer>
-</div>
+
+    <div id="container">
+        <header>
+            <h1>
+                Thanksgiving
+            </h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Halloween</a></li>
+                <li><a href="thanks.html">Thanksgiving</a></li>
+                <li><a href="contact.html">Christmas</a></li>
+            </ul>
+        </nav>
+        <main class="multi_col">
+            <section>
+
+                <h2> The next big holiaday after Halloween (besides Verterns Day) is Thanksgiving</h2>
+
+                <h3>So thats my next topic</h3>
+
+                <p>
+                    Thanksgiving is an annual national holiday in the United States, celebrated on the fourth Thursday
+                    in November, that focuses on expressing gratitude and gathering with family and friends. Its origins
+                    are commonly traced to a 1621 harvest feast shared by the English colonists (Pilgrims) of Plymouth
+                    and the Wampanoag Native Americans, a symbol of cooperation and peace. The holiday was officially
+                    proclaimed a national day of thanks by President Abraham Lincoln in 1863 during the Civil War in an
+                    effort to foster national unity.
+                </p>
+                <img src="thanks.jpg" alt="pic">
+            </section>
+            <hr>
+            <aside>
+                <h3>How its changed</h3>
+                <ul>
+                    <li><a href="https://en.wikipedia.org/wiki/Thanksgiving" target="blank">1</a></li>
+                    <li><a href="https://visit.archives.gov/whats-on/explore-exhibits/thanksgiving-historical-perspectives#:~:text=A%20Harvest%20Celebration,more%20in%20fiction%20than%20fact."
+                            target="blank">2</a></li>
+                    <li><a href="https://www.britannica.com/topic/Thanksgiving-Day" target="blank">3</a></li>
+                    <li><a href="https://www.usatoday.com/story/life/grateful/2019/11/08/thanksgiving-facts-how-holiday-has-evolved-through-years/2513013001/"
+                            target="blank">4</a></li>
+                </ul>
+            </aside>
+        </main>
+        <hr>
+        <p>
+            Today, the celebration typically revolves around a large meal featuring traditional foods such as roast
+            turkey, stuffing, mashed potatoes, cranberry sauce, and pumpkin pie. Many families incorporate
+            traditions like going around the table and sharing what they are thankful for, or engaging in charitable
+            acts such as volunteering at food banks. Other modern traditions include watching the Macy's
+            Thanksgiving Day Parade or professional football games. While rooted in religious and historical harvest
+            celebrations, Thanksgiving has evolved into a secular occasion for people of all backgrounds to reflect
+            on their blessings and enjoy time with loved ones.
+        </p>
+
+
+        <img src="thanks.jpg" alt="pic">
+        <img src="thanks1.jpg" alt="pic">
+        <footer>&copy; 2025 Thanksgiving</footer>
+    </div>
+</body>
+
 </html>
