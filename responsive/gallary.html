@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verterens day</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        header{
+            text-align: center;
+        }
+        main{
+            background-color: blueviolet;
+        }
+        body {
+            background-color: darkblue;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 50%;
+        }
+
+        a {
+            color: black;
+        }
+
+        a:hover {
+            color: gold;
+            text-decoration: none;
+        }
+
+        /* mobile styles */
+        header {
+            background-image: url("vet.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 80px;
+            opacity: 50%;
+        }
+
+        #container {
+            margin: 10px;
+            border: 2px solid;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        nav ul {
+            padding: 0;
+            list-style-type: none;
+        }
+
+        nav li {
+            display: block;
+        }
+
+        nav li a {
+            display: block;
+            background-color: darkslateblue;
+            height: 40px;
+            line-height: 40px;
+            text-decoration: none;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+
+        nav li a :hover {
+            background-color: blueviolet;
+        }
+
+        main {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .main_content {
+            padding: 10px;
+        }
+
+        .col {
+            margin: 10px;
+        }
+
+        .col img {
+            border-radius: 10px;
+            border: 2px solid;
+
+        }
+
+        footer {
+            padding: 40px;
+            text-align: center;
+        }
+
+        /* tablet styles*/
+        @media(min-width: 768px) {
+            nav{
+                margin-top: 10px ;
+                margin-bottom: 10px;
+                border-bottom: 4px solid;
+                padding: 10px 0;
+            }
+            nav li {
+                display: inline-block;
+            }
+            nav li a {
+                display: inline;
+                width: 150px;
+                height: 40px;
+            }
+            .col img{
+                width: 65%;
+            }
+        }
+        /* desktop */
+        @media (min-width: 1024px){
+        #container{
+            width: 65%;
+            margin: 20px auto;
+        }
+        .gallary{
+            display: flex;
+        }
+        .col{
+            border: 2px solid;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .col img{
+            width: 250px;
+        }
+
+    }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Veterans day</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Halloween</a></li>
+                <li><a href="thanks.html">Thanksgiving</a></li>
+                <li><a href="gallary.html">Veterans day</a></li>
+                <li><a href="contact.html">Christmas</a></li>
+            </ul>
+        </nav>
+        <main>
+            <Section class="main_content">
+                <h2>Some information about veterans day</h2>
+                <p>Veterans Day (originally known as Armistice Day) is a federal holiday in the United States observed annually on November 11, for honoring military veterans of the United States Armed Forces. It coincides with holidays in several countries, including Armistice Day and Remembrance Day, which also occur on the anniversary of the end of World War I. Major hostilities of World War I were formally ended at the 11th hour of the 11th day of the 11th month of 1918 when the Armistice with Germany went into effect. At the urging of major U.S. veteran organizations, Armistice Day was renamed Veterans Day in 1954.</p>
+            </Section>
+            <section class="gallary">
+                <div class="col"><img src="OIP.webp" alt="pic"></div>
+                <div class="col"><img src="vete.jpg" alt="pic"></div>
+                <div class="col"><img src="vetern.webp" alt="pic"></div>
+            </section>
+        </main>
+        <footer>&copy; 2025 Veterans day</footer>
+    </div>
+</body>
+
+</html>
