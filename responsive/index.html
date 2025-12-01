@@ -149,6 +149,111 @@ section img{
     box-shadow: 2px 2px 5px red;
     margin-top: 20px;
     margin-bottom: 20px;
+    /* mobile styles */
+        header {
+            background-image: url("vet.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 80px;
+            opacity: 50%;
+        }
+
+        #container {
+            margin: 10px;
+            border: 2px solid;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        nav ul {
+            padding: 0;
+            list-style-type: none;
+        }
+
+        nav li {
+            display: block;
+        }
+
+        nav li a {
+            display: block;
+            background-color: darkslateblue;
+            height: 40px;
+            line-height: 40px;
+            text-decoration: none;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+
+        nav li a :hover {
+            background-color: blueviolet;
+        }
+
+        main {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .main_content {
+            padding: 10px;
+        }
+
+        .col {
+            margin: 10px;
+        }
+
+        .col img {
+            border-radius: 10px;
+            border: 2px solid;
+
+        }
+
+        footer {
+            padding: 40px;
+            text-align: center;
+        }
+
+        /* tablet styles*/
+        @media(min-width: 768px) {
+            nav{
+                margin-top: 10px ;
+                margin-bottom: 10px;
+                border-bottom: 4px solid;
+                padding: 10px 0;
+            }
+            nav li {
+                display: inline-block;
+            }
+            nav li a {
+                display: inline;
+                width: 150px;
+                height: 40px;
+            }
+            .col img{
+                width: 65%;
+            }
+        }
+        /* desktop */
+        @media (min-width: 1024px){
+        #container{
+            width: 65%;
+            margin: 20px auto;
+        }
+        .gallary{
+            display: flex;
+        }
+        .col{
+            border: 2px solid;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .col img{
+            width: 250px;
+        }
+
+    }
 }
 
 </style>
